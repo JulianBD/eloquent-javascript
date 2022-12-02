@@ -2,8 +2,8 @@
 
 function loop(n, test, update, action) {
     while (test(n)) {
-    action(n);
-    n = update(n);
+        action(n);
+        n = update(n);
     }
 }
   
